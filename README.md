@@ -1,5 +1,7 @@
 #html&css终极教程
 
+本系列教程持续更新中，欢迎各位同行补充完善。
+
 ##[MDN CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
 这是一份很健全的css参考指南，话不多说，五颗星强烈推荐。
