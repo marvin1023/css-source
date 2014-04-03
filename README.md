@@ -260,6 +260,22 @@ form表单一说起来一肚子苦水，不想说了。
 * [columns](http://www.w3cplus.com/node/72)
 * [grids](http://24ways.org/2012/css3-grid-layout/)
 
+##响应式
+响应式涉及的知识点比较多，总的来说可以分为布局设计，图片视频设计，尺寸断点判断，导航设计，table设计，图标应用，表单元素设计，js交互设计，分辨率像素等。在输出内容方面，最简单的是全部输出然后通过css来控制是否显示，比较科学合理的是通过后端程序判断平台，来决定是否输出该区块内容。对于一些比较复杂大型的站点，建议pc和tablet可以公用一套html代码，而针对mobile则另外设计一套；对于一些比较简单的站点可以pc，tablet，mobile三者合一。
+
+- [响应式设计资源总汇](http://bradfrost.github.io/this-is-responsive/resources.html)
+- [Responsive设计的关键三步](http://www.w3cplus.com/css3/responsive-design-in-3-steps)
+- [Responsive设计的十个基本技巧 ](http://www.w3cplus.com/css3/10-basic-tips-about-responsive-design.html)
+- [响应式导航菜单在移动端的制作方法与解决方案](http://www.w3cplus.com/css3/responsive-mobile-navigation-menumethods-and-solutions.html)
+- [CSS3 Media Queries 片段](http://www.w3cplus.com/blog/715.html)
+- [响应式图片设计](http://www.w3cplus.com/css/flexible-images.html)
+- [Clown Car Technique: Solving Adaptive Images In Responsive Web Design](http://coding.smashingmagazine.com/2013/06/02/clown-car-technique-solving-for-adaptive-images-in-responsive-web-design/)
+- [响应式网页字体图标](http://www.w3cplus.com/css3/responsive-webfont-icons.html)
+- [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/)
+- [各种设备尺寸](http://screensiz.es/)
+- [viewport双城记](http://99jty.com/?p=1299)
+- [Respond.js](https://github.com/scottjehl/Respond)
+
 ##bug
 ###IE haslayout
 说实话真是不愿提及这个东西，但只要该死的ie6/7不消亡（ie8+没有了这个东西），这个东西你还不得不提。最常用的莫过于`*zoom:1;`,这可是解决ie6 bug的杀手级方案。这东西一两句话也说不明白，具体请看下面链接的文章吧。
