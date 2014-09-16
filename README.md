@@ -57,6 +57,11 @@
 
 * [inline-block 前世今生](http://www.iyunlu.com/view/css-xhtml/64.html)
 
+##关于table
+table还没死，很多时候你还需要它
+
+* [A Complete Guide to the Table Element](http://css-tricks.com/complete-guide-table-element/)
+
 ###通过切换class来改变显示
 上面的[固定宽度布局解决方案](http://www.w3cplus.com/solution/layout/layout.html)就运用了这种思路，不同的class,#main的宽度不同。用class来控制布局或显示是一种优秀的思想，可能我们更常见的就是jquery中的toggleClass了，这里我们一般用的还是属于初级的，如果思维再扩散点，你就会发现它可以应用的场景越多。
 
@@ -102,6 +107,7 @@
 ###水平垂直居中
 关于这个问题我只说一点，你就知道它是多么的闹心了：它经常出现在各大前端招聘的试题上啊。首先说下水平居中，这个比较好办，目前常用的有`text-align:center;`,`margin-left:auto;margin-right:auto;`还有相对/绝对元素的`left:50%;margin-left:-width`，除了text-align没有宽度限制，其余的对不起，都需要明确自己的宽度。再说下垂直居中，这个分为单行文字和其他，单行文字设置line-height等于父元素的height就垂直居中了，当然对于知道自己高度的还是比较好搞定的，用相对/绝对元素的`top:50%;margin-top:-height`，对于未知高度的那就比较复杂了。所有这些归到最后就是知道自己宽度高度的水平垂直居中都是纸老虎，真正要考的一般就是最变态的未知宽高的水平垂直居中啊。这要是css3没有出现，那这些未知宽度可得纠结死了，而现在[flex](http://www.w3cplus.com/blog/666.html)这个为布局而生的属性，一句margin:auto就可以轻松解决了；当然[tranform](http://www.w3cplus.com/content/css3-transform)中的translate的50%也是很好用的，它的50%是自己的一半，而left，top之类的50%是它的父元素的一半。总之涉及到的技术有Position, Negative Margins, Transforms, Table-Cell, Inline-Block, Flexbox等
 
+* [Centering in CSS: A Complete Guide](http://css-tricks.com/centering-css-complete-guide/)
 * [CSS制作图片水平垂直居中](http://www.w3cplus.com/css%2520/img-vertically-center-content-with-css)
 * [CSS制作水平垂直居中对齐](http://www.w3cplus.com/css/vertically-center-content-with-css)
 * [关于元素水平居中](http://www.aiubug.com/?p=427)
